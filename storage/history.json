@@ -1,0 +1,524 @@
+{
+  "stt": [
+    {
+      "filename": "tts_edb19bb41cc7.wav",
+      "text": "I would like to propose a new i-product, i-code-based intelligence agent, which analyzes entire soft",
+      "duration": 27.61,
+      "language": "en",
+      "timestamp": "2026-11-23 15:31:44"
+    },
+    {
+      "filename": "tts_02a72b2aff47.wav",
+      "text": "an I-Way scoring platform that automates inbound and outbound calls, customer follow-ups, lead quali",
+      "duration": 17.67,
+      "language": "en",
+      "timestamp": "2026-11-23 15:29:33"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 14:53:50"
+    },
+    {
+      "filename": "tts_edb19bb41cc7.wav",
+      "text": "I would like to propose a new i-product, i-code-based intelligence agent, which analyzes entire soft",
+      "duration": 27.61,
+      "language": "en",
+      "timestamp": "2026-11-21 11:49:36"
+    },
+    {
+      "filename": "neural_green_test.wav",
+      "text": "Neural Green Design Verification for Aminoyed Speech Studio.",
+      "duration": 4.53,
+      "language": "en",
+      "timestamp": "2026-11-20 17:21:50"
+    },
+    {
+      "filename": "recording_1795174460994.wav",
+      "text": "Hey, hi, hello. How are you? Will you please call me tomorrow?",
+      "duration": 7.26,
+      "language": "en",
+      "timestamp": "2026-11-20 17:04:25"
+    },
+    {
+      "filename": "recording_1795174389484.wav",
+      "text": "Hey, hi, hello, how are you? I'm good. Please call me tomorrow.",
+      "duration": 8.34,
+      "language": "en",
+      "timestamp": "2026-11-20 17:03:43"
+    },
+    {
+      "filename": "recording_1795174389484.wav",
+      "text": "嗨 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽 哈喽",
+      "duration": 8.34,
+      "language": "zh",
+      "timestamp": "2026-11-20 17:03:20"
+    },
+    {
+      "filename": "test_speech.wav",
+      "text": "Testing Aminoyd's speech platform integration with Caulzons are",
+      "duration": 4.48,
+      "language": "en",
+      "timestamp": "2026-11-20 16:16:53"
+    },
+    {
+      "filename": "tts_45edaee4911d.wav",
+      "text": "Born on October 15, 1931, in Ramis, Samal Nadu, Dr. Calam came from a humble background. Despite fin",
+      "duration": 34.59,
+      "language": "en",
+      "timestamp": "2026-11-20 16:13:55"
+    },
+    {
+      "filename": "tts_45edaee4911d.wav",
+      "text": "Born on October 15, 1931, in Ramis, Samal Nadu, Dr. Calam came from a humble background. Despite fin",
+      "duration": 34.59,
+      "language": "en",
+      "timestamp": "2026-11-20 16:13:43"
+    },
+    {
+      "filename": "tts_45edaee4911d.wav",
+      "text": "Born on October 15, 1931, in Ramis, Samal Nadu, Dr. Calam came from a humble background. Despite fin",
+      "duration": 34.59,
+      "language": "en",
+      "timestamp": "2026-11-20 16:11:13"
+    },
+    {
+      "filename": "tts_57b4c1ad25d3.wav",
+      "text": "Dr. APJ Abdul Kalam is famous for his inspiring speeches to students and youth. Many of his most mem",
+      "duration": 14.37,
+      "language": "en",
+      "timestamp": "2026-11-20 13:40:04"
+    },
+    {
+      "filename": "CHI_MAN_F_MaYue.mp3",
+      "text": "摩特、阿魯西斯、威L、斯洛文尼亚版拍摄了一組田園峰時上寫真 以色列時上攝影師、李奧蘇山娜、為本紫寫真長進 演藝歐勢大女人甜美的風格 為了配合本詞拍摄的主題 拍摄地點選在了充滿能力浪漫風情的 一打力、愛",
+      "duration": 19.91,
+      "language": "zh",
+      "timestamp": "2026-11-20 13:30:35"
+    },
+    {
+      "filename": "tts_45edaee4911d.wav",
+      "text": "Born on October 15, 1931, in Ramis, Samal Nadu, Dr. Calam came from a humble background. Despite fin",
+      "duration": 34.59,
+      "language": "en",
+      "timestamp": "2026-11-20 13:16:23"
+    },
+    {
+      "filename": "tts_45edaee4911d.wav",
+      "text": "4 on October 15, 1931, in Ramaswaram, Tamil Nadu, Dr. Kalam came from a humble background. Despite f",
+      "duration": 34.59,
+      "language": "hi",
+      "timestamp": "2026-11-20 13:16:09"
+    },
+    {
+      "filename": "tts_45edaee4911d.wav",
+      "text": "4 on October 15, 1931, in Ramaswaram, Tamil Nadu, Dr. Kalam came from a humble background. Despite f",
+      "duration": 34.59,
+      "language": "hi",
+      "timestamp": "2026-11-20 13:15:59"
+    },
+    {
+      "filename": "tts_45edaee4911d.wav",
+      "text": "Born on October 15, 1931, in Ramis, Samal Nadu, Dr. Calam came from a humble background. Despite fin",
+      "duration": 34.59,
+      "language": "en",
+      "timestamp": "2026-11-20 13:14:37"
+    },
+    {
+      "filename": "Happy Diwali Nanba Dialogue.mp3",
+      "text": "Happy Divalin Narbhov!",
+      "duration": 4.15,
+      "language": "hi",
+      "timestamp": "2026-11-20 13:08:37"
+    },
+    {
+      "filename": "Happy Diwali Nanba Dialogue.mp3",
+      "text": "Happy Divalin Narbhov!",
+      "duration": 4.15,
+      "language": "hi",
+      "timestamp": "2026-11-20 13:08:30"
+    },
+    {
+      "filename": "Hello Eppadi Irukeenga.mp3",
+      "text": "விட்டுக்கு, விட்டுக்கு, விட்டுக்கு, விட்டுக்கு, விட்டுக்கு, விட்டுக்கு, விட்டுக்கு, விட்டுக்கு, விட்",
+      "duration": 11.32,
+      "language": "ta",
+      "timestamp": "2026-11-20 13:05:24"
+    },
+    {
+      "filename": "audio.wav",
+      "text": "Yeah, as much as it's worth celebrating the first spacewalk with an all-female team, I think many of",
+      "duration": 25.93,
+      "language": "en",
+      "timestamp": "2026-11-20 12:59:02"
+    },
+    {
+      "filename": "audio.wav",
+      "text": "Yeah, as much as it's worth celebrating the first spacewalk with an all-female team, I think many of",
+      "duration": 25.93,
+      "language": "en",
+      "timestamp": "2026-11-20 12:56:37"
+    },
+    {
+      "filename": "audio.wav",
+      "text": "Yeah, as much as it's worth celebrating the first spacewalk with an all-female team, I think many of",
+      "duration": 25.93,
+      "language": "en",
+      "timestamp": "2026-11-20 12:55:48"
+    }
+  ],
+  "tts": [
+    {
+      "text": "I would like to propose a new i-product, i-code-based intelligence agent, which ",
+      "filename": "tts_d9d03bcde2c1.wav",
+      "duration": 25.81,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-23 15:32:03"
+    },
+    {
+      "text": "Testing integration TTS generation.",
+      "filename": "tts_650de81ed5db.wav",
+      "duration": 3.5,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 14:54:42"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "qwen_clone_31e8c96f.wav",
+      "duration": 25.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 13:29:29"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "qwen_clone_80f62056.wav",
+      "duration": 25.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 13:28:31"
+    },
+    {
+      "text": "Good morning! Welcome to AminoidSpeech Voice Studio.",
+      "filename": "qwen_clone_f718df71.wav",
+      "duration": 9.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 13:12:37"
+    },
+    {
+      "text": "Hello, this is a test of voice cloning using speaker embedding only mode.",
+      "filename": "qwen_clone_e4905918.wav",
+      "duration": 15.28,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 13:04:05"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "qwen_clone_5be2fa1c.wav",
+      "duration": 25.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 12:26:03"
+    },
+    {
+      "text": "Good morning! Welcome to AminoidSpeech Voice Studio.",
+      "filename": "qwen_clone_815d0518.wav",
+      "duration": 9.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 12:14:34"
+    },
+    {
+      "text": "Welcome to Aminoid Speech voice studio. This is a real test of neural voice clon",
+      "filename": "qwen_clone_d107652a.wav",
+      "duration": 17.2,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 11:44:34"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "qwen_clone_b5a6ac02.wav",
+      "duration": 25.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 11:18:26"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "qwen_clone_efbbba91.wav",
+      "duration": 25.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 11:03:46"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "qwen_clone_ce743e99.wav",
+      "duration": 25.52,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 10:52:48"
+    },
+    {
+      "text": "Hello! Thank you for calling Aminoid AI Studio. How may I direct your call today",
+      "filename": "tts_eda4ded04d0d.wav",
+      "duration": 7.98,
+      "voice": "Designed (Microsoft Hazel - English (United Kingdom))",
+      "timestamp": "2026-11-23 10:47:43"
+    },
+    {
+      "text": "Testing neural voice cloning with fully loaded tokenizer weights.",
+      "filename": "qwen_clone_95851e9a.wav",
+      "duration": 22.72,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 10:38:15"
+    },
+    {
+      "text": "STT implementation progress in the voice cloning module.\r\n\r\nSTT and voice clonin",
+      "filename": "qwen_clone_553e28fb.wav",
+      "duration": 47.92,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-23 10:25:00"
+    },
+    {
+      "text": "Hello this is an API clone test.",
+      "filename": "qwen_clone_2173852f.wav",
+      "duration": 18.72,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-21 18:08:05"
+    },
+    {
+      "text": "Hello, this is Aminoid Voice Studio.",
+      "filename": "qwen_clone_02dbb629.wav",
+      "duration": 16.72,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-21 17:47:03"
+    },
+    {
+      "text": "Welcome to Aminoid Speech Studio voice cloning.",
+      "filename": "tts_59674c9af176.wav",
+      "duration": 5.99,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-21 17:26:58"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "tts_1195539ba045.wav",
+      "duration": 23.65,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-21 17:16:58"
+    },
+    {
+      "text": "Welcome to Aminoid Speech Studio voice cloning.",
+      "filename": "tts_563ebb0d47f9.wav",
+      "duration": 5.99,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-21 17:08:25"
+    },
+    {
+      "text": "Testing high-fidelity reference speaker preservation.",
+      "filename": "tts_b89acc692111.wav",
+      "duration": 4.31,
+      "voice": "Cloned (Reference Speaker)",
+      "timestamp": "2026-11-21 16:28:56"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "tts_f874d6465980.wav",
+      "duration": 14.03,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:51:21"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "tts_a8c6e0f2a424.wav",
+      "duration": 14.03,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:50:50"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "tts_02a72b2aff47.wav",
+      "duration": 17.67,
+      "voice": "Microsoft Heera - English (India)",
+      "timestamp": "2026-11-21 15:49:56"
+    },
+    {
+      "text": "Hello! Thank you for calling Aminoid AI Studio. How may I direct your call today",
+      "filename": "tts_2c902128e187.wav",
+      "duration": 7.98,
+      "voice": "Designed (Microsoft Hazel - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:48:53"
+    },
+    {
+      "text": "Welcome to Aminoid Custom Voice studio. How may I help you today?",
+      "filename": "tts_ed0b055cdb75.wav",
+      "duration": 6.35,
+      "voice": "Persona: Vivian",
+      "timestamp": "2026-11-21 15:48:14"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "tts_9ee6853af66d.wav",
+      "duration": 14.03,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:47:33"
+    },
+    {
+      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
+      "filename": "tts_0a6af1cc7711.wav",
+      "duration": 14.03,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:47:30"
+    },
+    {
+      "text": "Hello, this is my cloned voice running through AMINOID Voice Studio.",
+      "filename": "tts_f094dc78817c.wav",
+      "duration": 4.51,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:47:03"
+    },
+    {
+      "text": "Hello, this is my cloned voice running through AMINOID Voice Studio.",
+      "filename": "tts_fa547e8666a7.wav",
+      "duration": 4.51,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:45:05"
+    },
+    {
+      "text": "Hello, this is a live test of cloned voice in Voice Studio.",
+      "filename": "tts_c3b503eec017.wav",
+      "duration": 4.2,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:43:29"
+    },
+    {
+      "text": "Testing Custom Voice persona in Aminoid Studio.",
+      "filename": "tts_80afa154fb76.wav",
+      "duration": 4.34,
+      "voice": "Persona: Vivian",
+      "timestamp": "2026-11-21 15:39:56"
+    },
+    {
+      "text": "Testing Voice Design in Aminoid Studio.",
+      "filename": "tts_619f3fb4d179.wav",
+      "duration": 3.72,
+      "voice": "Designed (Microsoft Hazel - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:39:56"
+    },
+    {
+      "text": "Testing cloned voice reproduction in Aminoid Studio.",
+      "filename": "tts_6a230975edcf.wav",
+      "duration": 3.82,
+      "voice": "Cloned (Microsoft George - English (United Kingdom))",
+      "timestamp": "2026-11-21 15:37:37"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_77072e5b8bb0.wav",
+      "duration": 37.13,
+      "voice": "Microsoft Hazel - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:51:26"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_6012e7434970.wav",
+      "duration": 30.64,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:50:19"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_149cbaf11d89.wav",
+      "duration": 28.28,
+      "voice": "Microsoft Zira Desktop - English (United States)",
+      "timestamp": "2026-11-21 12:44:43"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_737e012be5f9.wav",
+      "duration": 30.64,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:44:41"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_b262dcbcae17.wav",
+      "duration": 30.64,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:44:17"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
+      "filename": "tts_ad5727bc521d.wav",
+      "duration": 5.96,
+      "voice": "Microsoft Hazel - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:20:42"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
+      "filename": "tts_c64237c57326.wav",
+      "duration": 5.13,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:20:42"
+    },
+    {
+      "text": "Hello! This is Microsoft George - English (United Kingdom), synthesized locally ",
+      "filename": "tts_2512a2728a16.wav",
+      "duration": 8.4,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:18:18"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
+      "filename": "tts_82cdb612c35e.wav",
+      "duration": 5.96,
+      "voice": "Microsoft Hazel - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:17:23"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
+      "filename": "tts_48cf03a711c1.wav",
+      "duration": 5.13,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-21 12:17:23"
+    },
+    {
+      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
+      "filename": "tts_3f275f79c06d.wav",
+      "duration": 20.91,
+      "voice": "Microsoft Heera - English (India)",
+      "timestamp": "2026-11-21 11:54:16"
+    },
+    {
+      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
+      "filename": "tts_c315fc2609b1.wav",
+      "duration": 20.91,
+      "voice": "Microsoft Heera - English (India)",
+      "timestamp": "2026-11-21 11:53:55"
+    },
+    {
+      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
+      "filename": "tts_c2be9582e35e.wav",
+      "duration": 45.24,
+      "voice": "Microsoft Heera - English (India)",
+      "timestamp": "2026-11-21 11:53:28"
+    },
+    {
+      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
+      "filename": "tts_edb19bb41cc7.wav",
+      "duration": 27.61,
+      "voice": "Microsoft Ravi - English (India)",
+      "timestamp": "2026-11-21 11:48:47"
+    },
+    {
+      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
+      "filename": "tts_8eba457aa933.wav",
+      "duration": 27.61,
+      "voice": "Microsoft Ravi - English (India)",
+      "timestamp": "2026-11-21 11:45:33"
+    },
+    {
+      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
+      "filename": "tts_60525fd89862.wav",
+      "duration": 27.61,
+      "voice": "Microsoft Ravi - English (India)",
+      "timestamp": "2026-11-21 11:45:19"
+    }
+  ]
+}

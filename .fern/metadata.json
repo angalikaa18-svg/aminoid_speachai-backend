@@ -1,0 +1,28 @@
+{
+  "cliVersion": "5.95.1",
+  "generatorName": "fernapi/fern-python-sdk",
+  "generatorVersion": "5.39.3",
+  "generatorConfig": {
+    "client": {
+      "class_name": "BaseClient",
+      "filename": "base_client.py",
+      "exported_class_name": "DeepgramClient",
+      "exported_filename": "client.py"
+    },
+    "use_typeddict_requests": true,
+    "should_generate_websocket_clients": true,
+    "enable_wire_tests": true,
+    "runtime_version": true,
+    "extra_dev_dependencies": {
+      "pytest-cov": "^7.0.0",
+      "respx": ">=0.22.0,<1.0.0"
+    },
+    "pydantic_config": {
+      "skip_validation": true
+    }
+  },
+  "originGitCommit": "229defd4c32f220af07902c24efca5e94b4c47a4",
+  "originGitCommitIsDirty": true,
+  "invokedBy": "manual",
+  "sdkVersion": "7.19.0"
+}
