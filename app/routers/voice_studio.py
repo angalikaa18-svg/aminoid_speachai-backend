@@ -12,6 +12,7 @@ from app.tts.voice_manager import VoiceManager
 from app.tts.config import DEFAULT_TTS_CONFIG
 from app.history import HistoryManager
 from app.qwen.engine import QwenVoiceEngine
+from app.integrations.dispatcher import dispatch_event
 
 router = APIRouter(prefix="/api/v1/voice-studio", tags=["Voice Studio"])
 tts_engine = LocalTTSEngine()
@@ -121,6 +122,13 @@ def voice_clone(
     with open(ref_filepath, "wb") as f:
         f.write(audio_bytes)
 
+    dispatch_event("voice.clone.started", {
+        "text_preview": text[:60],
+        "model_id": model_id,
+        "voice_name": voice_name or "Cloned Voice",
+        "ref_audio": ref_filename
+    })
+
     try:
         engine = QwenVoiceEngine.get_instance()
         result = engine.clone_voice(
@@ -132,8 +140,28 @@ def voice_clone(
             language=language,
             voice_name=voice_name
         )
+        HistoryManager.add_clone_entry({
+            "voice_name": voice_name or "Cloned Voice",
+            "ref_filename": ref_filename,
+            "target_text": text[:100],
+            "duration": result.get("duration", 0),
+            "audio_url": result.get("audio_url", ""),
+            "model_id": model_id,
+            "language": language
+        })
+        dispatch_event("voice.clone.completed", {
+            "audio_url": result.get("audio_url"),
+            "duration": result.get("duration"),
+            "voice_name": voice_name or "Cloned Voice",
+            "model_id": model_id
+        })
+        dispatch_event("tts.audio.generated", {
+            "audio_url": result.get("audio_url"),
+            "duration": result.get("duration")
+        })
         return result
     except Exception as e:
+        dispatch_event("voice.clone.failed", {"error": str(e), "voice_name": voice_name})
         raise HTTPException(status_code=500, detail=f"Voice cloning synthesis error: {str(e)}")
 
 # -------------------------------------------------------------------------
@@ -165,6 +193,13 @@ def voice_design(request: VoiceDesignRequest):
 
     matched_voice_id = _find_best_voice(gender=gender, language=request.language or desc)
 
+    dispatch_event("voice.design.started", {
+        "text_preview": text[:60],
+        "prompt": desc[:80],
+        "voice_name": request.voice_name or "Designed Voice",
+        "model_id": request.model_id
+    })
+
     try:
         synth_result = tts_engine.synthesize(
             text=text,
@@ -177,6 +212,28 @@ def voice_design(request: VoiceDesignRequest):
             "filename": synth_result["filename"],
             "duration": synth_result["duration"],
             "voice": f"Designed ({synth_result['voice_used']})"
+        })
+
+        HistoryManager.add_design_entry({
+            "instruct": desc[:100],
+            "target_text": text[:100],
+            "voice_used": synth_result["voice_used"],
+            "voice_name": request.voice_name or "Designed Voice",
+            "duration": synth_result["duration"],
+            "audio_url": synth_result["audio_url"],
+            "model_id": request.model_id
+        })
+        dispatch_event("voice.design.completed", {
+            "filename": synth_result["filename"],
+            "audio_url": synth_result["audio_url"],
+            "duration": synth_result["duration"],
+            "voice_name": request.voice_name or "Designed Voice",
+            "voice_used": synth_result["voice_used"]
+        })
+        dispatch_event("tts.audio.generated", {
+            "filename": synth_result["filename"],
+            "audio_url": synth_result["audio_url"],
+            "duration": synth_result["duration"]
         })
 
         return {
@@ -193,6 +250,7 @@ def voice_design(request: VoiceDesignRequest):
             "message": "Designed voice generated successfully."
         }
     except Exception as e:
+        dispatch_event("voice.design.failed", {"error": str(e), "voice_name": request.voice_name})
         raise HTTPException(status_code=500, detail=f"Voice design synthesis error: {str(e)}")
 
 # -------------------------------------------------------------------------
@@ -340,6 +398,8 @@ def save_profile(profile: Dict[str, Any] = Body(...)):
     # Replace or prepend
     updated = [profile] + [p for p in profiles if p.get("id") != p_id]
     _save_stored_profiles(updated)
+    dispatch_event("voice.clone.saved", {"profile_id": p_id, "name": profile.get("name", "Voice Profile")})
+    dispatch_event("voice.created", {"profile_id": p_id, "name": profile.get("name", "Voice Profile")})
     return profile
 
 @router.delete("/profiles/{profile_id}")
@@ -347,4 +407,6 @@ def delete_profile(profile_id: str):
     profiles = _load_stored_profiles()
     filtered = [p for p in profiles if p.get("id") != profile_id]
     _save_stored_profiles(filtered)
+    dispatch_event("voice.clone.deleted", {"profile_id": profile_id})
+    dispatch_event("voice.deleted", {"profile_id": profile_id})
     return {"status": "success", "id": profile_id}

@@ -43,7 +43,25 @@ async def _deliver_to_subscriber(
     Logs every attempt to the SQLite database.
     """
     sub_id = subscription["id"]
-    target_url = subscription["target_url"]
+    target_url = subscription["target_url"].strip()
+
+    # Normalize Webhook.site viewer URLs or hash fragments
+    if "webhook.site/#!/view/" in target_url:
+        target_url = target_url.replace("webhook.site/#!/view/", "webhook.site/")
+    elif "webhook.site/#/" in target_url:
+        target_url = target_url.replace("webhook.site/#/", "webhook.site/")
+    if "#" in target_url:
+        target_url = target_url.split("#")[0]
+
+    # Guard against unconfigured sample placeholders like "your-unique-id"
+    if "your-unique-id" in target_url:
+        logger.warning(f"Skipping webhook [{event_name}] delivery: destination URL '{target_url}' contains placeholder 'your-unique-id'.")
+        return {
+            "status": "skipped",
+            "error": "Destination URL contains unconfigured placeholder 'your-unique-id'. Update subscription with a real webhook receiver URL.",
+            "target_url": target_url
+        }
+
     secret_key = subscription.get("secret_key", "default_secret")
     max_retries = subscription.get("retry_count", 3)
     base_interval = subscription.get("retry_interval_sec", 5)
@@ -58,6 +76,7 @@ async def _deliver_to_subscriber(
         "Content-Type": "application/json",
         "User-Agent": "AMINOID-Speech-Webhook-Dispatcher/1.0",
         "X-Aminoid-Event": event_name,
+        "X-Aminoid-Delivery": payload.get("event_id", str(uuid.uuid4())),
         "X-Aminoid-Delivery-Id": payload.get("event_id", str(uuid.uuid4())),
         "X-Aminoid-Timestamp": timestamp,
         "X-Aminoid-Signature": signature,
@@ -92,7 +111,8 @@ async def _deliver_to_subscriber(
                         response_body=last_response,
                         duration_ms=duration_ms,
                         status="success",
-                        attempt_count=attempt
+                        attempt_count=attempt,
+                        request_headers=headers
                     )
                     logger.info(f"Webhook [{event_name}] delivered to {target_url} in {duration_ms:.1f}ms (attempt {attempt})")
                     return {
@@ -128,7 +148,8 @@ async def _deliver_to_subscriber(
         duration_ms=last_duration,
         status="failed",
         attempt_count=max_retries,
-        error_message=last_error
+        error_message=last_error,
+        request_headers=headers
     )
     return {
         "status": "failed",
@@ -186,7 +207,8 @@ async def send_test_webhook(
     secret_key: str,
     event_name: str = "test.ping",
     sample_payload: Optional[Dict[str, Any]] = None,
-    custom_headers: Optional[Dict[str, str]] = None
+    custom_headers: Optional[Dict[str, str]] = None,
+    timeout_sec: float = 5.0
 ) -> Dict[str, Any]:
     """
     Sends a real, synchronous test webhook request to a destination URL for live UI testing.
@@ -223,17 +245,28 @@ async def send_test_webhook(
             headers[str(k)] = str(v)
 
     t0 = time.time()
+    # Normalize target URL
+    clean_target = (target_url or "").strip()
+    if "webhook.site/#!/view/" in clean_target:
+        clean_target = clean_target.replace("webhook.site/#!/view/", "webhook.site/")
+    elif "webhook.site/#/" in clean_target:
+        clean_target = clean_target.replace("webhook.site/#/", "webhook.site/")
+    if "#" in clean_target:
+        clean_target = clean_target.split("#")[0]
+
     try:
-        async with httpx.AsyncClient(timeout=10.0, verify=False) as client:
-            res = await client.post(target_url, content=payload_str, headers=headers)
+        async with httpx.AsyncClient(timeout=float(timeout_sec), verify=False) as client:
+            res = await client.post(clean_target, content=payload_str, headers=headers)
             duration_ms = (time.time() - t0) * 1000.0
             return {
                 "success": res.is_success,
+                "status": "success" if res.is_success else "failed",
                 "http_status": res.status_code,
                 "response_body": res.text[:2000],
                 "duration_ms": round(duration_ms, 2),
                 "event_id": event_id,
                 "signature": signature,
+                "signature_verified": res.is_success,
                 "headers_sent": {k: (v if "Signature" not in k else f"{v[:18]}...") for k, v in headers.items()},
                 "payload": payload
             }
@@ -241,6 +274,7 @@ async def send_test_webhook(
         duration_ms = (time.time() - t0) * 1000.0
         return {
             "success": False,
+            "status": "failed",
             "http_status": None,
             "error": str(e),
             "duration_ms": round(duration_ms, 2),

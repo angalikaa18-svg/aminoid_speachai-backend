@@ -1,0 +1,13 @@
+{
+  "api_base_url": "http://127.0.0.1:8080",
+  "default_stt_language": "auto",
+  "default_vad_filter": true,
+  "default_tts_rate": 180,
+  "default_tts_volume": 1.0,
+  "default_tts_pitch": 50,
+  "default_voice": "default",
+  "offline_strict_mode": true,
+  "auto_webhook_dispatch": true,
+  "max_history_items": 100,
+  "theme": "dark-green"
+}

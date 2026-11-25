@@ -1,6 +1,187 @@
 {
   "stt": [
     {
+      "filename": "tts_02a72b2aff47.wav",
+      "text": "an I-Way scoring platform that automates inbound and outbound calls, customer follow-ups, lead quali",
+      "duration": 17.67,
+      "language": "en",
+      "id": "stt_d492f64eee",
+      "timestamp": "2026-11-25 14:54:45"
+    },
+    {
+      "filename": "tts_02a72b2aff47.wav",
+      "text": "an I-Way scoring platform that automates inbound and outbound calls, customer follow-ups, lead quali",
+      "duration": 17.67,
+      "language": "en",
+      "id": "stt_92c612c8b7",
+      "timestamp": "2026-11-24 18:04:47"
+    },
+    {
+      "filename": "recording_1795523612075.wav",
+      "text": "time this is good to eat.",
+      "duration": 4.14,
+      "language": "en",
+      "id": "stt_793481d06e",
+      "timestamp": "2026-11-24 18:03:40"
+    },
+    {
+      "filename": "tts_edb19bb41cc7.wav",
+      "text": "I would like to propose a new i-product, i-code-based intelligence agent, which analyzes entire soft",
+      "duration": 27.61,
+      "language": "en",
+      "id": "stt_a0efa00c95",
+      "timestamp": "2026-11-24 16:40:21"
+    },
+    {
+      "filename": "recording_1795518559227.wav",
+      "text": "Hello, hi. Hi, Gokul.",
+      "duration": 6.12,
+      "language": "tl",
+      "id": "stt_b8baae18cb",
+      "timestamp": "2026-11-24 16:39:25"
+    },
+    {
+      "filename": "recording_1795518504142.wav",
+      "text": "Eid ist es für der",
+      "duration": 2.7,
+      "language": "de",
+      "id": "stt_858c13a657",
+      "timestamp": "2026-11-24 16:38:33"
+    },
+    {
+      "text": "an I-Way scoring platform that automates inbound and outbound calls, customer follow-ups, lead qualification, and campaign management. It helps businesses manage large scale customer interactions with less manual effort.",
+      "language": "en",
+      "duration": 17.67,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-24 15:29:09"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-24 14:03:57"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-24 14:03:46"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-24 14:03:42"
+    },
+    {
+      "filename": "tts_02a72b2aff47.wav",
+      "text": "an I-Way scoring platform that automates inbound and outbound calls, customer follow-ups, lead quali",
+      "duration": 17.67,
+      "language": "en",
+      "timestamp": "2026-11-24 12:39:53"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-24 11:26:48"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-24 11:26:35"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-24 11:26:29"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:09:46"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:09:36"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:09:33"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:08:40"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:08:30"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:08:27"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:06:50"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 18:06:48"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 17:05:47"
+    },
+    {
+      "text": "",
+      "language": "en",
+      "duration": 0.5,
+      "model": "faster-whisper-tiny",
+      "timestamp": "2026-11-23 17:05:42"
+    },
+    {
+      "filename": "tts_edb19bb41cc7.wav",
+      "text": "I would like to propose a new i-product, i-code-based intelligence agent, which analyzes entire soft",
+      "duration": 27.61,
+      "language": "en",
+      "timestamp": "2026-11-23 16:35:14"
+    },
+    {
       "filename": "tts_edb19bb41cc7.wav",
       "text": "I would like to propose a new i-product, i-code-based intelligence agent, which analyzes entire soft",
       "duration": 27.61,
@@ -171,6 +352,297 @@
   ],
   "tts": [
     {
+      "text": "Redesign the existing AMINOID Local Speech AI application using a Classic Profes",
+      "filename": "tts_930692be3e4b.wav",
+      "duration": 8.75,
+      "voice": "Microsoft Hazel - English (United Kingdom)",
+      "id": "tts_4244bcf234",
+      "timestamp": "2026-11-25 14:57:05"
+    },
+    {
+      "text": "Great! Your screenshot confirms that AMINOID Webhook Subscriptions are already c",
+      "filename": "tts_82f200eaa079.wav",
+      "duration": 24.29,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "id": "tts_04626612f9",
+      "timestamp": "2026-11-24 18:26:32"
+    },
+    {
+      "text": "Great! Your screenshot confirms that AMINOID Webhook Subscriptions are already c",
+      "filename": "tts_a646f788115a.wav",
+      "duration": 24.29,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "id": "tts_00d92c09d8",
+      "timestamp": "2026-11-24 18:26:07"
+    },
+    {
+      "text": "Great! Your screenshot confirms that AMINOID Webhook Subscriptions are already c",
+      "filename": "tts_e33452ae515c.wav",
+      "duration": 24.29,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "id": "tts_ccb0afea8e",
+      "timestamp": "2026-11-24 18:24:02"
+    },
+    {
+      "text": "Testing clean webhook delivery",
+      "filename": "tts_e0c73292fad9.wav",
+      "duration": 2.63,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 15:24:20"
+    },
+    {
+      "text": "Welcome to AMINOID AI. All speech processing is running 100% offline.",
+      "filename": "tts_b4ca045786cd.wav",
+      "duration": 6.58,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 15:21:11"
+    },
+    {
+      "text": "Testing with demo key",
+      "filename": "tts_a1d4e622889a.wav",
+      "duration": 2.12,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 14:20:36"
+    },
+    {
+      "text": "Testing with dev key",
+      "filename": "tts_a4bb67982822.wav",
+      "duration": 2.02,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 14:20:35"
+    },
+    {
+      "text": "Testing local TTS without auth header",
+      "filename": "tts_1830c03c9c24.wav",
+      "duration": 3.46,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 14:20:35"
+    },
+    {
+      "text": "Hello, thank you for calling. Your account balance is zero.",
+      "filename": "tts_f7114936dfd9.wav",
+      "duration": 5.06,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 14:03:58"
+    },
+    {
+      "text": "Webhook delivery verification event.",
+      "filename": "tts_c66329e6adb5.wav",
+      "duration": 3.13,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 14:03:48"
+    },
+    {
+      "text": "AMINOID speech engine connected successfully to external platform.",
+      "filename": "tts_f8323f1d8dfd.wav",
+      "duration": 4.82,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 14:03:43"
+    },
+    {
+      "text": "Authentic API key test passed.",
+      "filename": "tts_17010c762990.wav",
+      "duration": 2.96,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 14:03:37"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_d3776337fb83.wav",
+      "duration": 37.15,
+      "voice": "Microsoft Susan - English (United Kingdom)",
+      "timestamp": "2026-11-24 12:42:16"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_2e3134d9323e.wav",
+      "duration": 37.13,
+      "voice": "Microsoft Hazel - English (United Kingdom)",
+      "timestamp": "2026-11-24 12:42:12"
+    },
+    {
+      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
+      "filename": "tts_fbc0f65d30b2.wav",
+      "duration": 30.64,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-24 12:42:05"
+    },
+    {
+      "text": "an I-Way scoring platform that automates inbound and outbound calls, customer fo",
+      "filename": "tts_faa145d2f9d6.wav",
+      "duration": 16.91,
+      "voice": "Microsoft Hazel - English (United Kingdom)",
+      "timestamp": "2026-11-24 12:40:52"
+    },
+    {
+      "text": "an I-Way scoring platform that automates inbound and outbound calls, customer fo",
+      "filename": "tts_663882a646db.wav",
+      "duration": 13.97,
+      "voice": "Microsoft George - English (United Kingdom)",
+      "timestamp": "2026-11-24 12:40:28"
+    },
+    {
+      "text": "Hello, offline text to speech is now generating without 401 errors.",
+      "filename": "tts_0e9789319db4.wav",
+      "duration": 5.86,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:28:14"
+    },
+    {
+      "text": "Hello, thank you for calling. Your account balance is zero.",
+      "filename": "tts_7212d5132f94.wav",
+      "duration": 5.06,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:26:49"
+    },
+    {
+      "text": "Webhook delivery verification event.",
+      "filename": "tts_9eed279f63e8.wav",
+      "duration": 3.13,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:26:37"
+    },
+    {
+      "text": "AMINOID speech engine connected successfully to external platform.",
+      "filename": "tts_1e02e8052004.wav",
+      "duration": 4.82,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:26:32"
+    },
+    {
+      "text": "Authentic API key test passed.",
+      "filename": "tts_9aad82b3ce4e.wav",
+      "duration": 2.96,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:26:22"
+    },
+    {
+      "text": "Test by prefix",
+      "filename": "tts_deb3254cf796.wav",
+      "duration": 2.13,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:25:53"
+    },
+    {
+      "text": "Test by key ID",
+      "filename": "tts_40bf72ad66fd.wav",
+      "duration": 2.06,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:25:53"
+    },
+    {
+      "text": "Testing with dev key",
+      "filename": "tts_7ac6802ebdfa.wav",
+      "duration": 2.02,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:25:33"
+    },
+    {
+      "text": "Testing without API key",
+      "filename": "tts_8d6d144b0291.wav",
+      "duration": 2.44,
+      "voice": "System Default",
+      "timestamp": "2026-11-24 11:25:33"
+    },
+    {
+      "text": "Hello, thank you for calling. Your account balance is zero.",
+      "filename": "tts_6b158461e27c.wav",
+      "duration": 5.06,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:09:46"
+    },
+    {
+      "text": "Webhook delivery verification event.",
+      "filename": "tts_623263fe3e7a.wav",
+      "duration": 3.13,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:09:36"
+    },
+    {
+      "text": "AMINOID speech engine connected successfully to external platform.",
+      "filename": "tts_a6cf74ef199e.wav",
+      "duration": 4.82,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:09:33"
+    },
+    {
+      "text": "Authentic API key test passed.",
+      "filename": "tts_b0f48c1bb0ef.wav",
+      "duration": 2.96,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:09:28"
+    },
+    {
+      "text": "Hello, thank you for calling. Your account balance is zero.",
+      "filename": "tts_de0579576e58.wav",
+      "duration": 5.06,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:08:40"
+    },
+    {
+      "text": "Webhook delivery verification event.",
+      "filename": "tts_4bf6dbb20c7f.wav",
+      "duration": 3.13,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:08:31"
+    },
+    {
+      "text": "AMINOID speech engine connected successfully to external platform.",
+      "filename": "tts_902d5343424d.wav",
+      "duration": 4.82,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:08:28"
+    },
+    {
+      "text": "Authentic API key test passed.",
+      "filename": "tts_28a436792daa.wav",
+      "duration": 2.96,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:08:25"
+    },
+    {
+      "text": "Webhook delivery verification event.",
+      "filename": "tts_2df1c40a52d3.wav",
+      "duration": 3.13,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:06:51"
+    },
+    {
+      "text": "AMINOID speech engine connected successfully to external platform.",
+      "filename": "tts_dfffdc03388d.wav",
+      "duration": 4.82,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:06:49"
+    },
+    {
+      "text": "Authentic API key test passed.",
+      "filename": "tts_376e079bb7ed.wav",
+      "duration": 2.96,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 18:06:45"
+    },
+    {
+      "text": "Webhook delivery verification event.",
+      "filename": "tts_2f5df8fb55ef.wav",
+      "duration": 3.13,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 17:05:49"
+    },
+    {
+      "text": "AMINOID speech engine connected successfully to external platform.",
+      "filename": "tts_a838577b393c.wav",
+      "duration": 4.82,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 17:05:43"
+    },
+    {
+      "text": "Authentic API key test passed.",
+      "filename": "tts_e355f9550589.wav",
+      "duration": 2.96,
+      "voice": "System Default",
+      "timestamp": "2026-11-23 17:05:36"
+    },
+    {
       "text": "I would like to propose a new i-product, i-code-based intelligence agent, which ",
       "filename": "tts_d9d03bcde2c1.wav",
       "duration": 25.81,
@@ -260,265 +732,8 @@
       "duration": 7.98,
       "voice": "Designed (Microsoft Hazel - English (United Kingdom))",
       "timestamp": "2026-11-23 10:47:43"
-    },
-    {
-      "text": "Testing neural voice cloning with fully loaded tokenizer weights.",
-      "filename": "qwen_clone_95851e9a.wav",
-      "duration": 22.72,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-23 10:38:15"
-    },
-    {
-      "text": "STT implementation progress in the voice cloning module.\r\n\r\nSTT and voice clonin",
-      "filename": "qwen_clone_553e28fb.wav",
-      "duration": 47.92,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-23 10:25:00"
-    },
-    {
-      "text": "Hello this is an API clone test.",
-      "filename": "qwen_clone_2173852f.wav",
-      "duration": 18.72,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-21 18:08:05"
-    },
-    {
-      "text": "Hello, this is Aminoid Voice Studio.",
-      "filename": "qwen_clone_02dbb629.wav",
-      "duration": 16.72,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-21 17:47:03"
-    },
-    {
-      "text": "Welcome to Aminoid Speech Studio voice cloning.",
-      "filename": "tts_59674c9af176.wav",
-      "duration": 5.99,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-21 17:26:58"
-    },
-    {
-      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
-      "filename": "tts_1195539ba045.wav",
-      "duration": 23.65,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-21 17:16:58"
-    },
-    {
-      "text": "Welcome to Aminoid Speech Studio voice cloning.",
-      "filename": "tts_563ebb0d47f9.wav",
-      "duration": 5.99,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-21 17:08:25"
-    },
-    {
-      "text": "Testing high-fidelity reference speaker preservation.",
-      "filename": "tts_b89acc692111.wav",
-      "duration": 4.31,
-      "voice": "Cloned (Reference Speaker)",
-      "timestamp": "2026-11-21 16:28:56"
-    },
-    {
-      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
-      "filename": "tts_f874d6465980.wav",
-      "duration": 14.03,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:51:21"
-    },
-    {
-      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
-      "filename": "tts_a8c6e0f2a424.wav",
-      "duration": 14.03,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:50:50"
-    },
-    {
-      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
-      "filename": "tts_02a72b2aff47.wav",
-      "duration": 17.67,
-      "voice": "Microsoft Heera - English (India)",
-      "timestamp": "2026-11-21 15:49:56"
-    },
-    {
-      "text": "Hello! Thank you for calling Aminoid AI Studio. How may I direct your call today",
-      "filename": "tts_2c902128e187.wav",
-      "duration": 7.98,
-      "voice": "Designed (Microsoft Hazel - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:48:53"
-    },
-    {
-      "text": "Welcome to Aminoid Custom Voice studio. How may I help you today?",
-      "filename": "tts_ed0b055cdb75.wav",
-      "duration": 6.35,
-      "voice": "Persona: Vivian",
-      "timestamp": "2026-11-21 15:48:14"
-    },
-    {
-      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
-      "filename": "tts_9ee6853af66d.wav",
-      "duration": 14.03,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:47:33"
-    },
-    {
-      "text": "An AI voice calling platform that automates inbound and outbound calls, customer",
-      "filename": "tts_0a6af1cc7711.wav",
-      "duration": 14.03,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:47:30"
-    },
-    {
-      "text": "Hello, this is my cloned voice running through AMINOID Voice Studio.",
-      "filename": "tts_f094dc78817c.wav",
-      "duration": 4.51,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:47:03"
-    },
-    {
-      "text": "Hello, this is my cloned voice running through AMINOID Voice Studio.",
-      "filename": "tts_fa547e8666a7.wav",
-      "duration": 4.51,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:45:05"
-    },
-    {
-      "text": "Hello, this is a live test of cloned voice in Voice Studio.",
-      "filename": "tts_c3b503eec017.wav",
-      "duration": 4.2,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:43:29"
-    },
-    {
-      "text": "Testing Custom Voice persona in Aminoid Studio.",
-      "filename": "tts_80afa154fb76.wav",
-      "duration": 4.34,
-      "voice": "Persona: Vivian",
-      "timestamp": "2026-11-21 15:39:56"
-    },
-    {
-      "text": "Testing Voice Design in Aminoid Studio.",
-      "filename": "tts_619f3fb4d179.wav",
-      "duration": 3.72,
-      "voice": "Designed (Microsoft Hazel - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:39:56"
-    },
-    {
-      "text": "Testing cloned voice reproduction in Aminoid Studio.",
-      "filename": "tts_6a230975edcf.wav",
-      "duration": 3.82,
-      "voice": "Cloned (Microsoft George - English (United Kingdom))",
-      "timestamp": "2026-11-21 15:37:37"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
-      "filename": "tts_77072e5b8bb0.wav",
-      "duration": 37.13,
-      "voice": "Microsoft Hazel - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:51:26"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
-      "filename": "tts_6012e7434970.wav",
-      "duration": 30.64,
-      "voice": "Microsoft George - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:50:19"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
-      "filename": "tts_149cbaf11d89.wav",
-      "duration": 28.28,
-      "voice": "Microsoft Zira Desktop - English (United States)",
-      "timestamp": "2026-11-21 12:44:43"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
-      "filename": "tts_737e012be5f9.wav",
-      "duration": 30.64,
-      "voice": "Microsoft George - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:44:41"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. I am here to assist you today. How can I help y",
-      "filename": "tts_b262dcbcae17.wav",
-      "duration": 30.64,
-      "voice": "Microsoft George - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:44:17"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
-      "filename": "tts_ad5727bc521d.wav",
-      "duration": 5.96,
-      "voice": "Microsoft Hazel - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:20:42"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
-      "filename": "tts_c64237c57326.wav",
-      "duration": 5.13,
-      "voice": "Microsoft George - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:20:42"
-    },
-    {
-      "text": "Hello! This is Microsoft George - English (United Kingdom), synthesized locally ",
-      "filename": "tts_2512a2728a16.wav",
-      "duration": 8.4,
-      "voice": "Microsoft George - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:18:18"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
-      "filename": "tts_82cdb612c35e.wav",
-      "duration": 5.96,
-      "voice": "Microsoft Hazel - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:17:23"
-    },
-    {
-      "text": "Hello, welcome to AminoidSpeech. How can I assist you today?",
-      "filename": "tts_48cf03a711c1.wav",
-      "duration": 5.13,
-      "voice": "Microsoft George - English (United Kingdom)",
-      "timestamp": "2026-11-21 12:17:23"
-    },
-    {
-      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
-      "filename": "tts_3f275f79c06d.wav",
-      "duration": 20.91,
-      "voice": "Microsoft Heera - English (India)",
-      "timestamp": "2026-11-21 11:54:16"
-    },
-    {
-      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
-      "filename": "tts_c315fc2609b1.wav",
-      "duration": 20.91,
-      "voice": "Microsoft Heera - English (India)",
-      "timestamp": "2026-11-21 11:53:55"
-    },
-    {
-      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
-      "filename": "tts_c2be9582e35e.wav",
-      "duration": 45.24,
-      "voice": "Microsoft Heera - English (India)",
-      "timestamp": "2026-11-21 11:53:28"
-    },
-    {
-      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
-      "filename": "tts_edb19bb41cc7.wav",
-      "duration": 27.61,
-      "voice": "Microsoft Ravi - English (India)",
-      "timestamp": "2026-11-21 11:48:47"
-    },
-    {
-      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
-      "filename": "tts_8eba457aa933.wav",
-      "duration": 27.61,
-      "voice": "Microsoft Ravi - English (India)",
-      "timestamp": "2026-11-21 11:45:33"
-    },
-    {
-      "text": "I would like to propose a new AI product, AI Codebase Intelligence Agent, which ",
-      "filename": "tts_60525fd89862.wav",
-      "duration": 27.61,
-      "voice": "Microsoft Ravi - English (India)",
-      "timestamp": "2026-11-21 11:45:19"
     }
-  ]
+  ],
+  "clone": [],
+  "design": []
 }
